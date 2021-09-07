@@ -1,0 +1,10 @@
+#char-container{
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+button{
+  background-color: blueviolet;
+  color: white;
+  border-radius: 40px;
+}

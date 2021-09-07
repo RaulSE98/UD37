@@ -1,0 +1,13 @@
+nav{
+  border-color: black;
+  color: white;
+  justify-content: space-between;
+}
+
+p{
+  text-align: left;
+}
+
+a{
+  text-align: right;
+}

@@ -1,0 +1,12 @@
+<div id="char-container" *ngFor="let item of arrayCharacter">
+  <div id="char-container">
+    <h2 id="char-name">{{item.name}}</h2>
+    <img src="{{item.image}}">
+    <h2 id="char-status">{{item.status}}</h2>
+    <h2 id="char-species">{{item.species}}</h2>
+    <h2 id="char-type">{{item.type}}</h2>
+    <h2 id="char-gender">{{item.gender}}</h2>
+    <button ><a routerLink="../characters/{{item.id}}">Más Info</a></button>
+  </div>
+
+</div>
